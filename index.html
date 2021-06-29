@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 943px)" href="responsive.css">
+    <link rel="stylesheet" media="screen and (max-width: 552px)" href="responsive1.css">
+</head>
+<body>
+    
+    <section id="totalbody">  
+        <div id="input">
+            <h2>Enter your starting hour</h2>
+            <h3>Time:</h4>
+                <div id="output">
+                    <input type="number" id="put" value="0" >
+                    <h4>O'clock</h4>
+                </div>
+                <div id="ctime">The current time of you location is:<span id="currenttime"></span></div>
+                
+                
+            </div>
+            <div id="clock">
+                <div class="stick" id="hour"></div>
+                <div class="stick" id="minute"></div>
+                <div class="stick" id="second"></div>
+            </div>
+        </section>   
+        <script src="logic1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+#totalbody{
+    flex-direction: column-reverse;
+    
+    align-items: center;
+    
+}
+#input{
+   position: relative;
+   top: -4px;
+   height: 235px;
+    width: 352px;
+}
+#input h2{
+    font-size: 1.7rem;
+}
+#clock{
+    top: -4px;
+    height: 400px;
+    width: 400px;
+}
+#put{
+    width: 30px;
+}

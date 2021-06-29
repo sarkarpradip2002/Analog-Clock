@@ -1,0 +1,21 @@
+#clock{
+    height: 287px;
+    width: 287px;
+    top: -10px;
+
+}
+#input{
+    height: 220px;
+    width: 290px;
+    font-size: 1rem;
+    top: -11px;
+}
+#input h2{
+    font-size: 1.4rem;
+}
+#totalbody{
+    height: 596px;
+}
+#input h3{
+    margin-top: 13px;
+}
